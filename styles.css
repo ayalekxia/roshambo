@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+#start{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 25px;
+}
+
+#options{
+    display: flex;              
+    justify-content: center;    
+    align-items: center;        
+    gap: 20px;
+    padding-bottom: 50px;
+}
+
+#options button{
+    flex: 0 0 120px;
+}
+
+.hidden{
+    display: none;
+}
+
+.score{
+    padding: 5px;
+    padding-bottom: 20px;
+}
+
+.results{
+    padding: 5px;
+}
