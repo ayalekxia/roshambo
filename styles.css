@@ -1,3 +1,6 @@
+@import 'pixel-retroui/dist/styles.css';
+
+
 body{
     display: flex;
     flex-direction: column;
@@ -18,8 +21,10 @@ h1{
     margin: 25px;
 }
 
+
 #options{
-    display: flex;              
+    display: none;
+    /* display: flex;               */
     justify-content: center;    
     align-items: center;        
     gap: 20px;
@@ -30,9 +35,6 @@ h1{
     flex: 0 0 120px;
 }
 
-.hidden{
-    display: none;
-}
 
 .score{
     padding: 5px;
@@ -42,3 +44,4 @@ h1{
 .results{
     padding: 5px;
 }
+
